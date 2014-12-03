@@ -11,7 +11,7 @@ solutions:    [Mobile]
 github:       android-FloatingActionButtonBasic
 level:        BEGINNER
 icon:         screenshots/big_icon.png
-api_refs:
+apiRefs:
     - android:android.graphics.Outline
     - android:android.view.ViewOutlineProvider
     - android:android.widget.Checkable
