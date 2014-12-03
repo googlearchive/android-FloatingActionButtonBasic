@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
- Copyright 2014, The Android Open Source Project
+ Copyright 2013 The Android Open Source Project
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -15,9 +15,6 @@
  limitations under the License.
 -->
 <resources>
-    <dimen name="fab_elevation">8dp</dimen>
-    <dimen name="fab_press_translation_z">9dp</dimen>
-    <dimen name="fab_size">56dp</dimen>
-    <dimen name="fab_size_small">40dp</dimen>
-    <dimen name="fab_icon_size">24dp</dimen>
+
+
 </resources>
