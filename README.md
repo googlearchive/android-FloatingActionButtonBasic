@@ -2,21 +2,24 @@ Android FloatingActionButtonBasic Sample
 ===================================
 
 This sample shows the two sizes of Floating Action Buttons and
-            how to interact with them.
+how to interact with them.
 
 Introduction
 ------------
 
 This sample shows how to implement a [Checkable][1] Floating Action Button.
 
-        Two sizes of Floating Action Buttons are being displayed on screen and can
-        change their states regarding on their state.
+Floating action buttons are used for a special type of promoted action.
+They are distinguished by a circled icon floating above the UI and have
+special motion behaviors related to morphing, launching, and the transferring anchor point.
 
-        A log can be toggled within the [ActionBar][2] to display a log which keeps
-        track of the button's states.
+Floating action buttons come in two sizes:
+the default, which should be used in most cases, and the mini,
+which should only be used to create visual continuity with other elements on the screen.
 
-        [1]: https://developer.android.com/reference/android/widget/Checkable.html
-        [2]: https://developer.android.com/reference/android/app/ActionBar.html
+Both sizes of Floating Action Buttons are displayed on screen.
+
+[1]: https://developer.android.com/reference/android/widget/Checkable.html
 
 Pre-requisites
 --------------
@@ -28,7 +31,7 @@ Pre-requisites
 Screenshots
 -------------
 
-<img src=screenshots/screenshot1.png height="400" alt="Screenshot"/> <img src=screenshots/screenshot2.png height="400" alt="Screenshot"/> <img src=screenshots/screenshot3.png height="400" alt="Screenshot"/> <img src=screenshots/screenshot4.png height="400" alt="Screenshot"/> <img src=screenshots/screenshot5.png height="400" alt="Screenshot"/> 
+<img src="screenshots/screenshot1.png" height="400" alt="Screenshot"/> <img src="screenshots/screenshot2.png" height="400" alt="Screenshot"/> <img src="screenshots/screenshot3.png" height="400" alt="Screenshot"/> <img src="screenshots/screenshot4.png" height="400" alt="Screenshot"/> <img src="screenshots/screenshot5.png" height="400" alt="Screenshot"/> 
 
 Getting Started
 ---------------
