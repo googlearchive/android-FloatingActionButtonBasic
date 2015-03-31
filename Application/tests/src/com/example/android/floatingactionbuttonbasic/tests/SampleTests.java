@@ -17,16 +17,17 @@
 package com.example.android.floatingactionbuttonbasic.tests;
 
 import com.example.android.floatingactionbuttonbasic.*;
+import com.example.android.common.logger.LogFragment;
 
 import android.test.ActivityInstrumentationTestCase2;
 
 /**
-* Tests for FloatingActionButtonBasic sample.
+* Tests for FloatingActionButton sample.
 */
 public class SampleTests extends ActivityInstrumentationTestCase2<MainActivity> {
 
     private MainActivity mTestActivity;
-    private FloatingActionButton mTestFragment;
+    private LogFragment mTestFragment;
 
     public SampleTests() {
         super(MainActivity.class);
@@ -41,8 +42,8 @@ public class SampleTests extends ActivityInstrumentationTestCase2<MainActivity> 
         // flags = {@link Intent#FLAG_ACTIVITY_NEW_TASK}
         // All other fields are null or empty.
         mTestActivity = getActivity();
-        mTestFragment = (FloatingActionButton)
-            mTestActivity.getSupportFragmentManager().getFragments().get(1);
+        mTestFragment = (LogFragment)
+            mTestActivity.getSupportFragmentManager().getFragments().get(0);
     }
 
     /**
